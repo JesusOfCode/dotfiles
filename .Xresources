@@ -1,0 +1,7 @@
+URxvt.font: xft:Anonymice Nerd Font Mono:size=15
+URxvt.scrollBar:false
+URxvt.pointerBlank:true
+URxvt.cursorUnderline:true
+URxvt.internalBorder: 10
+
+URxvt.perl-ext-common: resize-font
