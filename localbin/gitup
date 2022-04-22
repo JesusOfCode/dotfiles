@@ -1,0 +1,10 @@
+#!/bin/sh
+dir=$(pwd)
+
+git add $dir &&
+git commit -m "Tweaks" &&
+git push &&
+cd .. &&
+rm -rf "$dir"bak &&
+cp -r $dir "$dir"bak &&
+echo "$dir Updated and backed up."

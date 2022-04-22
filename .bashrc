@@ -24,6 +24,6 @@ alias startx='cd ~ && startx'
 #PS1="\e[1;31m\u\e[0m\e[0;36m\h\e[0m \e[1;32m\W\e[0m \$ "
 PS1="\e[1;31m\u\e[0m:\e[0;36m\h\e[0m: \e[1;32m\W\e[0m \e[0;35m\$\e[0m "
 alias neofetch="neofetch --w3m ~/Pictures/lain.png --size 300px"
-wal -Rntq
+#wal -Rntq
 transset -a .9
 clear
