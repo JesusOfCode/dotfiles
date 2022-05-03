@@ -1,1 +1,1 @@
-mpv librewolf-bin flameshot htop micro paru pcmanfm picom rxvt-unicode sxiv ueberzug bat xclip yt-dlp
+mpv librewolf-bin flameshot htop micro paru pcmanfm picom rxvt-unicode sxiv ueberzug bat xclip yt-dlp perl-file-mimeinfo
