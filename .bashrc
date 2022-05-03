@@ -7,7 +7,7 @@
 
 
 # aliases
-alias ls='ls --color=auto'
+alias ls='lsd'
 alias cp='cp -r'
 alias find='sudo find / -iname'
 alias mpv='mpv --no-border --sub-auto=all'
