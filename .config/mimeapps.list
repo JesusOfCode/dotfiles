@@ -1,0 +1,17 @@
+
+[Default Applications]
+image/jpeg=rifle-usercreated-1.desktop;
+image/png=rifle-usercreated-2.desktop;
+image/gif=rifle-usercreated-3.desktop;
+
+x-scheme-handler/http=librewolf.desktop
+x-scheme-handler/https=librewolf.desktop
+x-scheme-handler/ftp=librewolf.desktop
+x-scheme-handler/chrome=librewolf.desktop
+text/html=librewolf.desktop
+application/x-extension-htm=librewolf.desktop
+application/x-extension-html=librewolf.desktop
+application/x-extension-shtml=librewolf.desktop
+application/xhtml+xml=librewolf.desktop
+application/x-extension-xhtml=librewolf.desktop
+application/x-extension-xht=librewolf.desktop
