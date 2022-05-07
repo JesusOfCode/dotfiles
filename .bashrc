@@ -17,14 +17,18 @@ alias sus='systemctl suspend'
 alias yt-dlp='yt-dlp --format mp4'
 alias lf='lfub'
 alias df='df -h'
-#alias gitup='cd ~/mydwm/ && git add . && git commit -m "Tweaks" && git push && cd ~ && rm -rf mydwmbak && cp -r mydwm mydwmbak && echo "mydwm updated and backed up"'
 alias startx='cd ~ && startx'
+alias rm='rm -i'
+alias mv='mv -i'
+alias m="micro"
+
+shopt -s autocd
 
 # rice
-#PS1="\e[1;31m\u\e[0m\e[0;36m\h\e[0m \e[1;32m\W\e[0m \$ "
-PS1="\e[1;31m\u\e[0m:\e[0;36m\h\e[0m: \e[1;32m\W\e[0m \e[0;35m\$\e[0m "
-alias neofetch="neofetch --w3m ~/Pictures/lain.png --size 300px"
+PS1="\e[1;32m\W\e[0m \e[0;35m\$\e[0m "
+#PS1="\e[1;31m\u\e[0m:\e[0;36m\h\e[0m: \e[1;32m\W\e[0m \e[0;35m\$\e[0m "
+alias neofetch="clear && neofetch"
 alias pfetch="clear && pfetch"
-#wal -Rntq
-transset -a .9
+wal -R
+#transset -a .9
 clear

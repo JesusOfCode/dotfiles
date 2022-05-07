@@ -5,7 +5,7 @@
 # lf-cleaner script.
 
 killall lf
-transset -a .9
+#transset -a .9
 
 set -e
 
