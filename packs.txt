@@ -1,1 +1,1 @@
-mpv librewolf-bin flameshot htop micro paru pcmanfm picom alacritty sxiv ueberzug bat xclip yt-dlp perl-file-mimeinfo lsd speedtest-cli
+mpv librewolf-bin flameshot htop micro paru pcmanfm picom alacritty sxiv ueberzug bat xclip yt-dlp perl-file-mimeinfo lsd
