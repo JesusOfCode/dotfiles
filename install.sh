@@ -1,37 +1,32 @@
 #!/bin/bash
 
-# Install some good packs and configs
+# Install some good packs and configs #
 
 # Paru for AUR packages and general managment + config file
 sudo pacman -S paru
 cp .config/paru/paru.conf $HOME/.config/paru.conf
 
-# MPV + anime4k
-paru -S mpv
+
+# OTHER PACKS #
+paru -S mpv picom alacritty lf perl-file-mimeinfo librewolf-bin flameshot btop micro pcmanfm sxiv ueberzug bat xclip yt-dlp lsd xbanish python-pywal hsetroot dmenu
+
+
+# PACK CONFIGS #
+
+# MPV
 mkdir $HOME/.config/mpv
 cp .config/mpv/* $HOME/.config/mpv/
 
-# picom and config no blurring
-paru -S picom
-mkdir $HOME/.config/picom
-cp .config/picom/picom.conf $HOME/.config/picom/picom.conf
-
-# Alacritty + config
-paru -S alacritty
+# Alacritty
 mkdir $HOME/.config/alacritty
 cp .config/alacritty/alacritty.yml $HOME/.config/alacritty/alacritty.yml
 
-# Lf file manager and configs for previews and such (forked from Luke Smith)
-paru -S lf
+# Lf configs for previews and such (forked from Luke Smith)
 mkdir $HOME/.config/lf
 cp .config/lf/* $HOME/.config/lf/
 
-# Perl-mimeinfo for better mimeapps config mimeapps.list
-paru -S perl-file-mimeinfo
+# Config mimeapps.list
 cp .config/mimeapps.list $HOME/.config/mimeapps.list
-
-# Packs that don't need special configuration for me ;)
-paru -S librewolf-bin flameshot btop micro pcmanfm sxiv ueberzug bat xclip yt-dlp lsd xbanish python-pywal hsetroot dmenu
 
 
 # Other personal config files #
@@ -43,10 +38,12 @@ cp -r .themes $HOME/.themes
 mkdir $HOME/.local/share/fonts
 cp fonts/* $HOME/.local/share/fonts
 cp -r .config/neofetch $HOME/.config/neofetch
-mkdir $HOME/.config/gtk-3.0
+cp -r .config/gtk-3.0 $HOME/.config/gtk-3.0
+
 
 # BINS #
 sudo cp localbin/* /usr/local/bin/
+
 
 # DWM SLSTATUS #
 git clone https://github.com/JesusOfCode/mydwm
@@ -57,6 +54,7 @@ git clone https://github.com/JesusOfCode/myslstatus
 cd myslstatus
 sudo make clean install
 cd ..
+
 
 # BRUH #
 cp egg1.jpg $HOME

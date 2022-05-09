@@ -8,4 +8,4 @@
 export BROWSER="librewolf"
 export EDITOR="micro"
 export XAUTHORITY="/home/heikki/.config/.Xauthority"
-export WINEPREFIX="/home/heikki/Documents/protonprefix/pfx/"
+#export WINEPREFIX="/home/heikki/Documents/protonprefix/pfx/"

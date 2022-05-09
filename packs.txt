@@ -1,1 +1,0 @@
-alacritty perl-file-mimeinfo lfmpv librewolf-bin flameshot btop micro paru pcmanfm picomsxiv ueberzug bat xclip yt-dlplsd xbanish python-pywal hsetroot
