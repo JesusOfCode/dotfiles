@@ -40,7 +40,8 @@ cp .bashrc $HOME/.bashrc
 cp .gtkrc-2.0 $HOME/.gtkrc-2.0
 cp .xinitrc $HOME/.xinitrc
 cp -r .themes $HOME/.themes
-cp -r fonts $HOME/.local/share/fonts
+mkdir $HOME/.local/share/fonts
+cp fonts/* $HOME/.local/share/fonts
 cp -r .config/neofetch $HOME/.config/neofetch
 mkdir $HOME/.config/gtk-3.0
 
