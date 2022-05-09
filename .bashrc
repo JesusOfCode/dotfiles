@@ -25,10 +25,10 @@ alias m="micro"
 shopt -s autocd
 
 # rice
-PS1="\e[1;32m\W\e[0m \e[0;35m\$\e[0m "
 #PS1="\e[1;31m\u\e[0m:\e[0;36m\h\e[0m: \e[1;32m\W\e[0m \e[0;35m\$\e[0m "
+#transset -a .9
+PS1="\e[1;33m>\e[0m\e[1;35m>\e[0m\e[1;31m>\e[0m \e[1;32m\W\e[0m "
 alias neofetch="clear && neofetch --source ~/.config/neofetch/face"
 alias pfetch="clear && pfetch"
 wal -R
-#transset -a .9
 clear

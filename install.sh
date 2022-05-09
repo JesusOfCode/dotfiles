@@ -63,4 +63,5 @@ cd ..
 cp egg1.jpg $HOME
 
 # BINS #
-sudo cp localbin/* /usr/local/bin/
+mkdir $HOME/bin
+cp localbin/* $HOME/bin/
