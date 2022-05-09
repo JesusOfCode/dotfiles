@@ -1,1 +1,1 @@
-mpv librewolf-bin flameshot htop micro paru pcmanfm picom alacritty sxiv ueberzug bat xclip yt-dlp perl-file-mimeinfo lsd
+alacritty perl-file-mimeinfo lfmpv librewolf-bin flameshot btop micro paru pcmanfm picomsxiv ueberzug bat xclip yt-dlplsd xbanish python-pywal hsetroot

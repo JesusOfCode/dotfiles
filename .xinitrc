@@ -1,7 +1,12 @@
-#!/bin/sh
+#!/bin/bash
+
+#
+# ~/.xinitrc
+#
+
 slstatus &
 picom &
-wal -R &
-#hsetroot -screens 1 -center ~/Pictures/lainwall.png &
-xrdb .Xresources &
+#xrdb .Xresources &
+wal -i /home/heikki/Pictures/eggs/ &
+xbanish -t 5 &
 exec dwm
