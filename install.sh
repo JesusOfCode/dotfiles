@@ -56,3 +56,6 @@ git clone https://github.com/JesusOfCode/myslstatus
 cd myslstatus
 sudo make clean install
 cd ..
+
+# BRUH #
+cp egg1.jpg $HOME

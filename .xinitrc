@@ -7,6 +7,6 @@
 slstatus &
 picom &
 #xrdb .Xresources &
-wal -i /home/heikki/Pictures/eggs/ &
+wal -i $HOME/egg1.jpg &
 xbanish -t 5 &
 exec dwm
