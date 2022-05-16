@@ -15,3 +15,5 @@ application/x-extension-shtml=librewolf.desktop
 application/xhtml+xml=librewolf.desktop
 application/x-extension-xhtml=librewolf.desktop
 application/x-extension-xht=librewolf.desktop
+video/mp4=mpv.desktop;
+video/webm=mpv.desktop;
