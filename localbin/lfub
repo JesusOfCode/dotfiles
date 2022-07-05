@@ -4,7 +4,7 @@
 # ueberzug. This works in concert with the lf configuration file and the
 # lf-cleaner script.
 
-killall lf
+wal -R
 #transset -a .9
 
 set -e

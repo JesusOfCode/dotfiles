@@ -9,7 +9,7 @@ sudo pacman -S paru
 cp .config/paru/paru.conf $HOME/.config/paru.conf
 
 # Other packs
-paru -S mpv picom alacritty lf perl-file-mimeinfo librewolf-bin flameshot btop micro pcmanfm sxiv ueberzug bat xclip yt-dlp lsd xbanish python-pywal hsetroot dmenu
+paru -S mpv picom alacritty lf perl-file-mimeinfo librewolf-bin flameshot btop micro pcmanfm sxiv ueberzug bat xclip yt-dlp lsd xbanish python-pywal hsetroot dmenu copyq
 ###
 
 

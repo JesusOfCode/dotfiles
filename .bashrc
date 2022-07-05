@@ -21,9 +21,10 @@ alias startx='cd ~ && startx'
 alias rm='rm -i'
 alias mv='mv -i'
 alias m=micro
+alias mdrive="sudo mount -L EXTDRIVE $HOME/extdrive"
 
 # autocd #
-#shopt -s autocd
+shopt -s autocd
 
 # rice #
 #PS1="\e[1;31m\u\e[0m:\e[0;36m\h\e[0m: \e[1;32m\W\e[0m \e[0;35m\$\e[0m "
